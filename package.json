@@ -1,0 +1,21 @@
+{
+	"name": "traveldiaries",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js"
+	},
+	"author": "Manuel Atance",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.0",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"knex": "^0.95.15",
+		"nodemon": "^2.0.15",
+		"sqlite3": "^5.0.2"
+	}
+}
